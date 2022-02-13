@@ -1,0 +1,39 @@
+:root {
+    --mainColor: #DDD;
+}
+*{
+    background-color: gray;
+    font-family: cursive, sans-serif, serif
+}
+
+div {
+    height: 10px;
+    width: 200px;
+    margin: 20px auto;
+    margin-top: -30px;
+    border: 1px solid #DDD
+
+}
+h2 {
+    text-align: center
+}
+div, h2, form, .one, p{
+    background-color: var(--mainColor, #DDD);
+}
+h2, .one, p, .tow{  display: none }
+.one {
+    width: 80%;
+    height: 34px;
+    border: 1px solid gray;
+    margin: 10px auto;
+    margin-top: 3px;
+    margin-left: 45px
+}
+.tow {
+    border: 1px solid #aaa1a1;
+    position: absolute;
+    padding: 9px;
+    margin-top: 70px ;
+    margin-left: -40px;
+}
+p { text-align: center; font-size: 20px; }
